@@ -48,6 +48,8 @@
 
 Very basic flask template.
 
+Build on the excellent work of  <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" target="_blank">Miguel Grinberg</a>
+
 ## :sparkles: Features ##
 
 :heavy_check_mark:  Factory pattern architecture.\
