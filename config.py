@@ -1,15 +1,18 @@
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
 
 BASEDIR = str(Path(__file__).parent.absolute())
 
-
+load_dotenv('.env')
 
 class Config(object):
     # Flask secret
-    SECRET_KEY = 'my_secrey_key'
+    SECRET_KEY = os.environ.get("SECRET_KEY") or "you-will-never-guess"
 
-    # Sqlite database configuration
-    DB_NAME = "app.db"
-    DB_LOCATION = f"{BASEDIR}/{DB_NAME}"
-    SQLALCHEMY_DATABASE_URI = f"sqlite:///{DB_LOCATION}"
+    # Database configuration
+    SQLALCHEMY_DATABASE_URI = os.environ.get("SQLALCHEMY_DATABASE_URI") or \
+        "sqlite:///" + os.path.join(BASEDIR, "app.db")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
