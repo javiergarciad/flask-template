@@ -54,7 +54,6 @@ Build on the excellent work of  <a href="https://blog.miguelgrinberg.com/post/th
 
 :heavy_check_mark:  Factory pattern architecture.\
 :heavy_check_mark: Database management using Alembic with Flask-SqlAlchemy.\
-:heavy_check_mark: Feature 3.
 
 ## :rocket: Technologies ##
 
@@ -91,7 +90,7 @@ $ pip install -r requirements.txt
 # Run the project
 $ flask run
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:5000>
 ```
 
 ## :memo: License ##
