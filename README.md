@@ -77,6 +77,7 @@ The easiest way is to create a new repositorie in GitHub with:
 <a href="https://github.com/javiergarciad/flask-template/generate"><img alt="Template" src="https://img.shields.io/badge/Github-Use%20template-green"></a>
 
 <br>
+
 Or just clone it on your machine:
 
 <br>
