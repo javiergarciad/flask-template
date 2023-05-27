@@ -53,7 +53,7 @@ Build on the excellent work of  <a href="https://blog.miguelgrinberg.com/post/th
 ## :sparkles: Features ##
 
 :heavy_check_mark:  Factory pattern architecture.\
-:heavy_check_mark: Database management using Alembic with Flask-SqlAlchemy.\
+:heavy_check_mark: Database management using Alembic with Flask-SqlAlchemy.
 
 ## :rocket: Technologies ##
 
