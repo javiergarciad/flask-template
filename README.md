@@ -71,6 +71,16 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ## :checkered_flag: Starting ##
 
+The easiest way is to create a new repositorie in GitHub with:
+
+<br>
+<a href="https://github.com/javiergarciad/flask-template/generate"><img alt="Template" src="https://img.shields.io/badge/Github-Use%20template-green"></a>
+
+<br>
+Or just clone it on your machine:
+
+<br>
+
 ```bash
 # Clone this project
 $ git clone https://github.com/javiergarciad/flask-template
