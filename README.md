@@ -46,27 +46,27 @@
 
 ## :dart: About ##
 
-Very basic flask teplate
+Very basic flask template.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark:  Factory pattern architecture.\
+:heavy_check_mark: Database management using Alembic with Flask-SqlAlchemy.\
+:heavy_check_mark: Feature 3.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Flask-Migrate](https://flask-migrate.readthedocs.io/)
+- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)
+- [Flask-WTF](https://flask-wtf.readthedocs.io/)
+
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python3](https://python.org/) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -77,11 +77,17 @@ $ git clone https://github.com/javiergarciad/flask-template
 # Access
 $ cd flask-template
 
+# Create virtual enviroment
+$ virtualenv .venv
+
+# Activate enviroment
+$ source .venv/bin/activate
+
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ flask run
 
 # The server will initialize in the <http://localhost:3000>
 ```
